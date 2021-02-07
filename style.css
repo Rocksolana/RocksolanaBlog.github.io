@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 .header {
-    background-color:grey;
+    background-color:black;
+   
      
 }
 .conteiner {
@@ -15,10 +16,8 @@
 .row {
     display: flex;
     padding-left: 15px;
-    padding-right: 15px;
-   
+    padding-right: 15px; 
 }
-
 [class*="col-"] {
     padding-left: 15px;
     padding-right: 15px;
@@ -26,6 +25,46 @@
 .col-xs-1 {
     flex: 0 0 8.333%;
     max-width:8.333%;
+}
+.col-xs-2 {
+    flex: 0 0 16.666%;
+    max-width:16.666%;
+}
+.col-xs-3 {
+    flex: 0 0 25%;
+    max-width:25%;
+}
+.col-xs-4 {
+    flex: 0 0 33.333%;
+    max-width:33.333%;
+}
+.col-xs-5 {
+    flex: 0 0 41.666%;
+    max-width:41.666%;
+}
+.col-xs-6 {
+    width: 50%;
+    max-width:50%;
+}
+.col-xs-7 {
+    width: 58.333%;
+    max-width:58.333%;
+}
+.col-xs-8 {
+    width: 66.3333%;
+    max-width:66.333%;
+}
+.col-xs-9 {
+    width: 75%;
+    max-width:75%;
+}
+.col-xs-10 {
+    width: 83.333%;
+    max-width:83.333%;
+}
+.col-xs-11 {
+    width: 91.666%;
+    max-width:91.666%;
 }
 .col-xs-12 {
     flex: 0 0 100%;
@@ -77,44 +116,60 @@
     margin: 30px;
 }
 .nav {
-   
+   width: 100%;
 }
 .menu {
-    padding: 30px 0px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
-}
-.menu > li {
-    text-align: center;
-    width: 60px;
-    display: block;
+    align-items:center;
 }
 
 .menu > li> a {
  text-decoration: none;
- color:red;
+ color: white;
  text-transform: uppercase;
  font-size: 14px;
  font-family: 'Open Sans', sans-serif;
- border: 1px solid white;
  padding: 6px 10px;
  border-radius: 5px;
-
+}
+.menu > li > a:hover {
+    color: #06c6c6;
+    border: 1px solid #06c6c6;      
+}
+.form-serch {
+    display: flex;
+    align-items:center;
 }
 .search {
+    display: flex;
     width: 195px;
-    padding: 30px 0px;
+    height: 80px;
+    align-items: center;
     
 }
 .input-search-text {
     background-color: black;
-    color:red;
-    border: 1px solid red;
+    color:white;
+    border: 1px solid white;
     text-transform: uppercase;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif; 
     height: 27px;   
-    border-radius: 5px;
+    border-radius: 5px;   
+    padding-left: 10px;  
+}
+.input-search-button {
+    background: url("images/search.png") center no-repeat;
+    border:none;
+    display: flex;
+    justify-content: flex-end;
+}
+input::placeholder {
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*font-family: 'Quattrocento Sans', sans-serif;*/
