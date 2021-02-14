@@ -265,8 +265,7 @@ input::placeholder {
 }
 .btn {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
 }
 
 #submit {
@@ -308,16 +307,17 @@ input::placeholder {
     justify-content: center;
    
 }
-.work_with_coustemer {
-   align-items: stretch;
+.work_with_customer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  
 }
 .list_title {
     font-family:'Quattrocento Sans', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    display: flex;
-    
-   
+    display: flex; 
 }
 
 .text {
@@ -325,8 +325,12 @@ input::placeholder {
     font-size: 14px;
     font-weight: 400;
     line-height: 2;
-    padding-bottom: 20px;
-   
+    padding-bottom: 30px;
+    
+}
+.main_title{
+    width: 90%;
+    padding-left: 15px;
 }
 
 .square {
@@ -340,7 +344,7 @@ input::placeholder {
     align-items:center;
 }
 .hr-line {
-    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-top: 1px solid rgba(216, 198, 198, 0.75);
     padding: 0;
     margin: 0;
 }
@@ -356,7 +360,7 @@ input::placeholder {
 .description_team {
     margin: 0;
     padding:20px 0 0 20px; 
-    background-color: rgb(247, 222, 236);
+    background-color: rgba(228, 207, 210, 255);
 }
 .foto:hover{
     opacity:0.5;
@@ -364,8 +368,18 @@ input::placeholder {
 
 }
 .description_team:hover {
-    background-color: rgb(22, 21, 21);
+    background-color: rgba(77, 62, 69, 255);
     color: white;
+}
+.lovely_work{
+    background-color: rgba(58, 68, 77, 255);
+    color: white;
+    display: flex;
+
+}
+.image {
+      flex-wrap: wrap;
+      
 }
 
 /*font-family: 'Quattrocento Sans', sans-serif;*/
