@@ -197,7 +197,7 @@
 .work_with_coustemer {
     display: block;
 }
-.team, .image, .services {
+.team, .image, .services, .feauteres_image {
     display: flex;
     flex-direction:column;
 }
@@ -208,7 +208,6 @@
 .team_foto {
     width: 100%;
 }
- 
 
 }
 
@@ -287,6 +286,7 @@ input::placeholder {
     font-weight: bold;
     font-size: 36px;
     text-transform: uppercase;
+   
 }
 .main_text {
     font-family: 'Open Sans', sans-serif;
@@ -380,7 +380,7 @@ input::placeholder {
     padding: 0;
     margin: 0;
 }
-.team,.services {
+.team,.services, .feauteres_image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -409,7 +409,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
 }
-.image {
+.image, .feauteres_image {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -440,6 +440,19 @@ input::placeholder {
 .services_img {
    padding-bottom: 30px;
 }
+#title {
+    padding:70px 0;
+}
+.description_features {
+    padding: 20px 0;
+}
 
+.feauteres_title {
+    font-family:'Quattrocento Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+     text-transform: uppercase;
+     padding-bottom: 30px;
+}
 
 /*font-family: 'Quattrocento Sans', sans-serif;*/
