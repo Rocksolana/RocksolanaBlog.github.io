@@ -107,11 +107,11 @@
     .btn{
         display: block;
     }
-    .team {
+    .team, .services {
         flex-wrap: wrap;
         padding-top: 10px;
     }
-    .foto { 
+    .foto, .services_item { 
         padding:10px;
         
     }
@@ -154,7 +154,7 @@
         flex-wrap:nowrap;
         
     }
-    .foto { 
+    .foto , .services_item { 
         /*width: calc(25% - 10px);*/
         flex:25%;
 
@@ -162,12 +162,14 @@
     .team_foto {
         width: 100%;
     }
-    .image {
-      
-    }
+    
     .image_foto {
         width: calc(33% - 10px);
 
+    }
+    .services {
+        flex-wrap: wrap;
+        display: flex;
     }
 }
 
@@ -189,27 +191,24 @@
 .btn {
     flex-direction: column;
 }
+.social_networks {
+    padding-bottom: 15px;
+}
 .work_with_coustemer {
     display: block;
 }
-.team {
+.team, .image, .services {
     display: flex;
     flex-direction:column;
 }
-.foto {
+.foto, .image_foto {
     padding: 10px;
 }
-.image {
-    display: flex;
-    flex-direction:column;
-    
-}
+
 .team_foto {
     width: 100%;
 }
-.image_foto {
-    padding: 10px;
-}
+ 
 
 }
 
@@ -317,7 +316,7 @@ input::placeholder {
 #submit:hover {
     background-color: #06c6c6;
 }
-.we_are_modest {
+.we_are_modest, .what_we_do {
     background-color: whitesmoke;
     display: flex;
     align-items: center;
@@ -381,16 +380,14 @@ input::placeholder {
     padding: 0;
     margin: 0;
 }
-.team {
+.team,.services {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
-   
 }
-
 .description_team {
     margin: 0;
     padding:20px; 
@@ -405,7 +402,7 @@ input::placeholder {
     background-color: rgba(77, 62, 69, 255);
     color: white;
 }
-.lovely_work{
+.lovely_work, .features{
     background-color: rgba(58, 68, 77, 255);
     color: white;
     display: flex;
@@ -429,6 +426,19 @@ input::placeholder {
     display: flex;
     justify-content: center;
     padding-bottom: 60px;
+}
+.services_title {
+    font-family:'Quattrocento Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.services_item {
+    text-align: center;
+}
+.services_img {
+   padding-bottom: 30px;
 }
 
 
