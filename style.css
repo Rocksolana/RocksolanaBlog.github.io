@@ -454,5 +454,30 @@ input::placeholder {
      text-transform: uppercase;
      padding-bottom: 30px;
 }
+.contact_title {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 60px 0 40px 0;
+}
+.contact_text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+.contact_text:last-child {
+    padding-bottom: 70px;
+}
 
+.credits {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+.network{
+
+}
 /*font-family: 'Quattrocento Sans', sans-serif;*/
