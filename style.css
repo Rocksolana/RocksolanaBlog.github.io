@@ -171,6 +171,7 @@
         flex-wrap: wrap;
         display: flex;
     }
+    
 }
 
 @media(max-width:767px){
@@ -207,6 +208,9 @@
 
 .team_foto {
     width: 100%;
+}
+.network{
+    justify-content: center;
 }
 
 }
@@ -470,14 +474,24 @@ input::placeholder {
 .contact_text:last-child {
     padding-bottom: 70px;
 }
-
+.footer {
+    background-color: rgba(58, 68, 77, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .credits {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    padding: 20px 0;
+    line-height: 2;
    
 }
 .network{
-
+    display: flex;
+    justify-content: flex-end;
 }
+
 /*font-family: 'Quattrocento Sans', sans-serif;*/
