@@ -9,3 +9,16 @@ if (mobileMenu.classList.contains("active-menu")){
 }
 
 })
+let modalBlock = document.querySelector(".modal-block");
+function ShowModal(){
+ if ( pageYOffset > document.body.scrollHeight / 2 ) {
+    function openModal(){
+        modalBlock.classList.add("show");
+        modalBlock.classList.remove("hide");
+    }
+ }
+}
+ function openModal(){
+    modalBlock.classList.add("show");
+    modalBlock.classList.remove("hide");
+ }
